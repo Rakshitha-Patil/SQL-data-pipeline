@@ -23,7 +23,3 @@ jobs:
     - name: Run data pipeline
       run: python scripts/process_data.py
       - name: Upload database
-  uses: actions/upload-artifact@v3
-  with:
-    name: database
-    path: database.db
